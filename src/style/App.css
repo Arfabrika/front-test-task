@@ -5,23 +5,31 @@
 }
 
 .header {
-    margin: 15px 0 10px 510px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.header_common {
+    text-align: center;
+    margin-left: 50px;
 }
 
 .introduction {
     font-size: 18px;
-    margin-left: 500px;
     height: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 15px;
 }
 
 .person {
-    width: 270px;
-    height: 320px;
+    width: 210px;
+    height: 260px;
     margin: 15px;
 }
 .checked_person {
-    width: 270px;
-    height: 320px;
+    width: 210px;
+    height: 260px;
     border: 3px solid orange;
     margin: 15px;
     font-weight: bold;
@@ -38,33 +46,42 @@
 }
 
 .image_person {
-    width: 270px;
-    height: 320px;
+    width: 210px;
+    height: 260px;
 }
 
 .person_list {
     display:flex;
     margin-left: 40px;
-    height: 326px;
+    height: 260px;
+    justify-content: center;
 }
 
 .buttons_module {
     height: 60px;
     display: inline-flex;
-    margin:0 575px 0 575px;
+    margin-left: 47vw;
 }
 
 .post_list {
     display:block;
-    margin-left: 360px;
-    margin-right: 650px;
+    margin-left: 745px;/*710*/
+    margin-right: 480px;
 }
 
 .post_header {
-    margin-top: 85px;
-    margin-left: 360px;
+    margin-top: 110px;
+    margin-left: 745px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+}
+
+.post_title {
+    font-family: 'Noto Sans';
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 .post_body {
-    font-family: "Book Antiqua";
+    font-family: 'Source Sans Pro', sans-serif;
 }
