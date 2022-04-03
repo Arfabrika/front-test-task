@@ -1,2 +1,3 @@
 Test task on making SPA
-![image](https://user-images.githubusercontent.com/73736515/161429392-50043830-1ec6-4657-87aa-db9d0da8614a.png)
+![image](https://user-images.githubusercontent.com/73736515/161436572-6b8d8497-c79e-43d8-a19f-a73f05dee26b.png)
+
