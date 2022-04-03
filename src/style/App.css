@@ -5,21 +5,23 @@
 }
 
 .header {
-    margin: 15px 0 10px 700px;
-    /*margin-top: 30px;
-    margin-right: 400px;
-    margin-bottom: 10px;*/
+    margin: 15px 0 10px 510px;
+}
+
+.introduction {
+    font-size: 18px;
+    margin-left: 500px;
+    height: 50px;
 }
 
 .person {
-    width: 310px;
-    height: 370px;
-    /*border: 2px solid rebeccapurple;*/
+    width: 270px;
+    height: 320px;
     margin: 15px;
 }
 .checked_person {
-    width: 310px;
-    height: 370px;
+    width: 270px;
+    height: 320px;
     border: 3px solid orange;
     margin: 15px;
     font-weight: bold;
@@ -36,31 +38,33 @@
 }
 
 .image_person {
-    width: 310px;
-    height: 370px;
+    width: 270px;
+    height: 320px;
 }
 
 .person_list {
     display:flex;
     margin-left: 40px;
-    height: 376px;
+    height: 326px;
 }
 
 .buttons_module {
-    width: 100%;
-    height: 100px;
+    height: 60px;
     display: inline-flex;
-    margin:0 680px 0 680px;
+    margin:0 575px 0 575px;
 }
 
 .post_list {
     display:block;
-    margin-left: 400px;
-    margin-right: 500px;
+    margin-left: 360px;
+    margin-right: 650px;
 }
 
 .post_header {
-    text-align: center;
-    margin-top: 95px;
-    margin-right: 300px;
+    margin-top: 85px;
+    margin-left: 360px;
+}
+
+.post_body {
+    font-family: "Book Antiqua";
 }

@@ -5,7 +5,7 @@ const Person = ({pers, click, ...props}) => {
   const [person, setPerson] = useState({id: 0, name: 'a', company: {name: ''}, url: ''});
 
   useEffect(()=> {
-    setPerson({...pers, url: 'https://i.pravatar.cc/310/?img='+pers.id});
+    setPerson({...pers, url: 'https://i.pravatar.cc/270/?img='+(pers.id + 4)});
   }, [])
 
   return (
